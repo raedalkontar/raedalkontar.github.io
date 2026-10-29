@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alkontar.engin.umich.edu/sitemap.xml

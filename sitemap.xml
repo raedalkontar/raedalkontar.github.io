@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://alkontar.engin.umich.edu/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://alkontar.engin.umich.edu/publications.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alkontar.engin.umich.edu/team.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alkontar.engin.umich.edu/teaching.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alkontar.engin.umich.edu/code-talks.html</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
