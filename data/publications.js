@@ -13,7 +13,7 @@ window.PUBLICATIONS = {
  },
  "areas": {
   "human-ai": 9,
-  "manufacturing": 9,
+  "manufacturing": 13,
   "methodology": 45
  },
  "publications": [
@@ -672,6 +672,7 @@ window.PUBLICATIONS = {
    "year": 2025,
    "type": "journal",
    "area": "methodology",
+   "also_area": "manufacturing",
    "link": "https://ieeexplore.ieee.org/document/10839380",
    "link_label": "Link",
    "awards": [],
@@ -1070,6 +1071,7 @@ window.PUBLICATIONS = {
    "year": 2025,
    "type": "journal",
    "area": "methodology",
+   "also_area": "manufacturing",
    "link": "https://ieeexplore.ieee.org/document/11049806",
    "link_label": "Link",
    "awards": [
@@ -1525,6 +1527,7 @@ window.PUBLICATIONS = {
    "year": 2023,
    "type": "journal",
    "area": "methodology",
+   "also_area": "manufacturing",
    "link": "https://www.tandfonline.com/doi/full/10.1080/00224065.2023.2224974",
    "link_label": "Link",
    "awards": [],
@@ -2377,6 +2380,7 @@ window.PUBLICATIONS = {
    "year": 2018,
    "type": "journal",
    "area": "methodology",
+   "also_area": "manufacturing",
    "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/qre.2326",
    "link_label": "Link",
    "awards": [],
