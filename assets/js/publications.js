@@ -54,9 +54,12 @@
   }
 
   function pubHTML(p) {
-    var marker = p.area && AREA_LABEL[p.area]
-      ? '<span class="area area--' + (p.area === "human-ai" ? "hai" : p.area === "manufacturing" ? "mfg" : "meth") +
-        '" role="img" aria-label="' + esc(AREA_LABEL[p.area]) + '"></span>'
+    // A paper in two areas keeps its main marker, except under the filter for
+    // its second area, where the main one would look out of place.
+    var area = state.area === p.also_area ? p.also_area : p.area;
+    var marker = area && AREA_LABEL[area]
+      ? '<span class="area area--' + (area === "human-ai" ? "hai" : area === "manufacturing" ? "mfg" : "meth") +
+        '" role="img" aria-label="' + esc(AREA_LABEL[area]) + '"></span>'
       : "";
 
     var title = p.link
@@ -103,7 +106,7 @@
   }
 
   function matches(p) {
-    return state.area === "all" || p.area === state.area;
+    return state.area === "all" || p.area === state.area || p.also_area === state.area;
   }
 
   function render() {
