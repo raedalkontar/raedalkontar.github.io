@@ -5,7 +5,7 @@ window.PUBLICATIONS = {
   "total": 62,
   "published": 58,
   "under_revision": 4,
-  "with_code": 27,
+  "with_code": 28,
   "with_video": 13,
   "student_led": 30,
   "with_student_coauthor": 44,
@@ -1318,7 +1318,8 @@ window.PUBLICATIONS = {
     "Best general track paper winner, DM section, INFORMS Annual Meeting, 2024"
    ],
    "notes": [],
-   "status": "published"
+   "status": "published",
+   "code": "https://github.com/UMDataScienceLab/TCMF"
   },
   {
    "cv_index": 30,
