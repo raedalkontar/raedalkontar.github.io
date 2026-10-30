@@ -13,8 +13,8 @@ window.PUBLICATIONS = {
  },
  "areas": {
   "human-ai": 9,
-  "manufacturing": 8,
-  "methodology": 45
+  "manufacturing": 9,
+  "methodology": 44
  },
  "publications": [
   {
@@ -1599,7 +1599,7 @@ window.PUBLICATIONS = {
    "venue": "Technometrics",
    "year": 2023,
    "type": "journal",
-   "area": "methodology",
+   "area": "manufacturing",
    "link": "https://www.tandfonline.com/doi/full/10.1080/00401706.2022.2157882",
    "link_label": "Link",
    "awards": [
