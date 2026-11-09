@@ -358,6 +358,8 @@ button:focus-visible,
   border: 1px solid color-mix(in srgb, var(--brand) 18%, transparent);
 }
 .chip:hover { background: var(--brand); color: #fff; }
+/* A source link beside an award or news line: the title stays black, the chip sits after it. */
+.awards__what .chip, .news__what .chip { margin-left: .35rem; vertical-align: .1em; white-space: nowrap; }
 
 .btn {
   display: inline-flex; align-items: center; gap: .4rem;
